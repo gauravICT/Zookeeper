@@ -1,0 +1,50 @@
+1. The Hello World program
+Our first example will be Hello, World! It is traditionally used to introduce beginners to a new programming language.
+
+print("Hello, World!")
+As you can see, it consists of a single line and just prints a string passed in the parentheses, but without quotes.
+
+You should get this result:
+
+Hello, World!
+
+2. Short explanation
+Here, print is the name of a function. A function is a block of code that does some useful work for you, e.g. prints a text. In some sense, a function is a subprogram that can be reused within your programs. When the name of a function is followed by parentheses, it means that it was called to get the result.
+
+Let's go further, "Hello, World!" is a Python string. All strings are surrounded by either single or double quotes, so 'Hello, World!' is also a valid string. You may replace this string with another one, and the program will print the new string. For example:
+
+print('Python 3.x')
+As you might guess, this program will print:
+
+Python 3.x
+
+3. Printing quotes
+If you would like to include quotes into a string, then enclose this string in quotes of another type, e.g.:
+
+print("Yes, I'm ready to learn Python.")
+It prints:
+
+Yes, I'm ready to learn Python.
+
+4. Possible errors
+Even this simple line of code may contain errors, most common of them are:
+
+putting extra indentation
+   print("Hello, World!")
+This does not work because of extra spaces before print.
+
+calling the function by the wrong name
+pint("Hello, World!")
+This line contains pint instead of print. Make sure to refer to every function by its proper name.
+
+writing names in the wrong case
+PRINT("All caps")
+Again, Print, print and PRINT are not the same. Names are case-sensitive in Python.
+
+missing one or both quotes for a string
+print("Python)
+This does not work because of missing closing quotes.
+
+missing one or more parentheses
+print("I have no end"
+Be careful with parentheses, especially when calling a function.
