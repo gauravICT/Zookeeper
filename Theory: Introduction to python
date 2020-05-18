@@ -1,0 +1,26 @@
+1. What is Python?
+Python is a modern general-purpose programming language initially developed by a Dutch programmer named Guido van Rossum in the late 1980s. The name comes from the popular Monty Python show, not the snake as you might think. This language has a clean, uniform and well-readable syntax and is designed to be easy to learn and use in practice.
+
+Nowadays, Python is one of the most popular programming languages worldwide according to the TIOBE index and the number of programmers who use it is growing every day. The language has a huge community of developers around the world.
+
+Developing software with Python is easy and fun :)
+
+Python has a wide range of possible applications, especially in:
+web development
+data science (including machine learning)
+scripting (task automation, e.g. text processing or a simulation of typical user actions)
+Less commonly, it is also used in desktop development.
+
+2. Short history of Python
+Like other programming languages, Python has gone through a number of versions. Python 1.0 was released in 1994 and laid the basic principles of the language with emphasis on simplicity.
+
+Python 2.0 was released in 2000. This version has become very popular among programmers. Different 2.x subversions (2.6, 2.7) are still used in various projects and libraries. The symbol x in 2.x means any subversion of Python 2.
+
+Python 3.0 was the next major version released in 2008. It broke backward compatibility with its predecessors in order to rid the language of historic clutter and make Python more readable and consistent.
+
+So, today two similar but incompatible versions of Python are commonly in use.
+
+3. First program example
+Here is a single line of Python code that prints Learn Python to be great!.
+
+print("Learn Python to be great!")
