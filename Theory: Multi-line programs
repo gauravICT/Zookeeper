@@ -1,0 +1,28 @@
+Let's consider an example, the following code prints exactly three strings, each from a new line:
+
+print("I")
+print("know")
+print("Python")
+The output is:
+
+I
+know
+Python
+You can run this example here or locally if you have already installed Python on your computer.
+
+There are other ways to print the same text using just one function call. We will consider them in the next topics.
+
+The print function also allows you to print an empty line with no string specified:
+
+print("I")
+print()
+print("know")
+print()
+print("Python")
+Here's the output:
+
+I
+ 
+know
+ 
+Python
