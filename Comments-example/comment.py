@@ -3,3 +3,10 @@
 x = 8
 x = x * x
 print(x) # prints the x squared
+
+# Triple quoted string
+print('''
+\"""
+THIS IS A STRING
+\"""
+''')
