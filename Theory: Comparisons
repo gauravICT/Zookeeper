@@ -1,0 +1,43 @@
+1. Comparison operators
+Comparison or relation operations let you compare two values and determine the relation between them. There are ten comparison operators in Python:
+
+< strictly less than
+<= less than or equal
+> strictly greater than
+>= greater than or equal
+== equal
+!= not equal
+is object identity
+is not negated object identity
+in membership
+not in negated membership.
+The result of applying these operators is always bool. The following sections focus on the first six operators, but you can find more details about identity and membership testing in the next topics.
+
+2. Comparing integers
+In this topic, we will cover only integer comparison.
+
+a = 5
+b = -10
+c = 15
+ 
+result_1 = a < b   # False
+result_2 = a == a  # True
+result_3 = a != b  # True
+result_4 = b >= c  # False
+Any expression that returns integer is a valid comparison operand too:
+
+calculated_result = a == b + c  # True
+Given the defined variables a, b and c, we basically check if 5 is equal to -10 + 15, which is true.
+
+3. Comparison chaining
+Since comparison operations return boolean values, you can join them using logical operators.
+
+x = -5
+y = 10
+z = 12
+ 
+result = x < y and y <= z  # True
+In Python, there is a fancier way to write complex comparisons. It is called chaining. For example, x < y <= z is almost equivalent to the expression you saw in the last example. The difference is that y evaluated only once. 
+
+result = 10 < (100 * 100) <= 10000  # True, the multiplication is evaluated once
+Pay attention, that tools for code quality often recommend chaining comparisons instead of joining them.
