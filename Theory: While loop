@@ -1,0 +1,33 @@
+Sometimes one iteration (=execution) of a statement is not enough to get the result that you need. For this reason, Python offers a special statement that will execute the block of code several times. Meet the loop command and one of the universal loops is the while loop.
+
+People generally don't choose Python to write fast code. The main advantages of Python are readability and simplicity. As the while loop requires the introduction of extra variables, it takes more time for an iteration. Thus, the while loop is quite slow and not so popular. It resembles a conditional operator: using the while loop, we can execute a set of statements as long as the condition is true.
+
+The condition itself (2) is written before the body of the loop (some call it the conditional code) and is being checked before the body is executed. If the condition is true (3a), the iterations continue. If the condition is false (3b), the loop execution is terminated and the program control moves further to the next operation.
+
+
+
+1. Visualization
+If we visualize the while loop, it’ll look like this:
+
+number = 0
+while number < 5:
+    print(number)
+    number += 1
+print('Now, number is greater than or equal to 5')
+The variable number plays here the role of a counter – a variable that changes its value after each iteration. In this case, the iterations continue until the number is equal to 5. When the value of a counter reaches 5, the program control moves to the next operation and prints the message. Here you can see the output of this code:
+
+0
+1
+2
+3
+4
+Now, number is greater than or equal to 5
+
+2. The infinite loop
+If you delete the part of the conditional code where you increase the value of a counter, you will bump into the infinite loop. What does it mean? Since you don’t increase your variable, a condition never becomes false and can work forever. Usually, it is a logical fallacy, and you'll have to stop the loop using special statements or finishing the loop manually.
+
+Sometimes the infinite loop can be useful, e.g. in querying a client when the loop works continuously to provide the constant exchange of information with a user. You can implement it by writing True as a condition after the while header.
+
+Now you are familiar with the while loop and its usage. Don’t forget about the role of a counter, otherwise, you’ll have to deal with the infinite loop. And after you’ve written the code, try to run it through as if you were a Python program. That’ll help you to understand, how the loop works.
+
+Programming is all about simplifying, so the code should be readable, short and clear. Don’t forget about comments and syntax. In the beginning, it may seem that the while loop is not that easy to implement, but after a couple of times, you’ll realize that it’s a very useful tool.
